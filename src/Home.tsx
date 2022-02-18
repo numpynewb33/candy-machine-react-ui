@@ -26,7 +26,7 @@ const ConnectButton = styled(WalletDialogButton)`
     height: 60px;
     margin-top: 10px;
     margin-bottom: 5px;
-    background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+    background: linear-gradient(180deg, #33DA49 0%, #0A4410 100%);
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -162,9 +162,15 @@ const Home = (props: HomeProps) => {
         refreshCandyMachineState,
     ]);
 
+    const CryptocadetImage = style("img")`
+      width: 100%;
+      height:350px;
+    `
+
     return (
         <Container style={{ marginTop: 100 }}>
             <Container maxWidth="xs" style={{ position: "relative" }}>
+                <CryptocadetImage src="/cadet.jpg" alt="cryptocadet"/>
                 <Paper
                     style={{
                         padding: 24,
