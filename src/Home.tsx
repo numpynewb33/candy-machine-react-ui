@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { Container, Snackbar } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Alert from "@material-ui/lab/Alert";
+import img from '/Users/benlegrand/candy-machine-react-ui/public/cadet.jpg';
 import { PublicKey } from "@solana/web3.js";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
