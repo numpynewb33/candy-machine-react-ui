@@ -168,7 +168,7 @@ const Home = (props: HomeProps) => {
                 <Paper
                     style={{
                         padding: 24,
-                        backgroundColor: "#151A1F",
+                        backgroundColor: "#159413",
                         borderRadius: 6,
                     }}
                 >
