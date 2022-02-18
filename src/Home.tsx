@@ -165,6 +165,10 @@ const Home = (props: HomeProps) => {
     const CryptocadetImage = style("img")`
       width: 100%;
       height:350px;
+      object-fit: cover;
+      object-position: top;
+      margin-bottom: 30px;
+      border-radius: 10%:
     `
 
     return (
