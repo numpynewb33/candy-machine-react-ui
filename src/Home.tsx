@@ -491,20 +491,13 @@ const Home = (props: HomeProps) => {
                     )}
 
                     <CrossMintButton
-<<<<<<< HEAD
-                        style={{ margin: "0 auto", width: "100%" }}
-                        collectionTitle="Crypto Cadets"
-                        collectionDescription="1500 Crypto Cadets deploying on the Solana Network!"
-                        collectionPhoto="/cadet.jpg"
-=======
                         style={{
                             margin: "5px auto",
                             width: "100%",
                         }}
-                        collectionTitle="<TITLE_FOR_YOUR_COLLECTION>"
-                        collectionDescription="<DESCRIPTION_OF_YOUR_COLLECTION>"
-                        collectionPhoto="<OPT_URL_TO_PHOTO_COVER>"
->>>>>>> 98c291a217b655071507e25b9e39823e1a3c5512
+                        collectionTitle="Crypto Cadets"
+                        collectionDescription="1500 Crypto Cadets deploying on the Solana Network!"
+                        collectionPhoto="/cadet.jpg"
                     />
                 </Paper>
             </Container>
