@@ -34,14 +34,7 @@ const ConnectButton = styled(WalletDialogButton)`
 `;
 
 const MintContainer = styled.div``; // add your owns styles here
-const CryptocadetImage = styled("img")`
-width: 100%;
-height:350px;
-object-fit: cover;
-object-position: top;
-margin-bottom: 30px;
-border-radius: 10%:
-`
+
 export interface HomeProps {
     candyMachineId?: anchor.web3.PublicKey;
     connection: anchor.web3.Connection;
@@ -170,6 +163,14 @@ const Home = (props: HomeProps) => {
         refreshCandyMachineState,
     ]);
 
+    const CryptocadetImage = styled("img")`
+      width: 100%;
+      height:350px;
+      object-fit: cover;
+      object-position: top;
+      margin-bottom: 30px;
+      border-radius: 10%:
+    `
 
     return (
         <Container style={{ marginTop: 100 }}>
