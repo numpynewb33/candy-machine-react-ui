@@ -497,7 +497,7 @@ const Home = (props: HomeProps) => {
                         }}
                         collectionTitle="Crypto Cadets"
                         collectionDescription="1500 Crypto Cadets deploying on the Solana Network!"
-                        collectionPhoto="/cadet.jpg"
+                        collectionPhoto="https://www.mint-cryptocadets.io/cadet.jpg"
                     />
                 </Paper>
             </Container>
